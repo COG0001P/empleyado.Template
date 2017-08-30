@@ -1,0 +1,277 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="app-nav" tabindex="1" style="overflow: hidden; outline: none;">
+    <a href="" class="button btn-cta btn-full">Generate Report</a>
+
+    <div id="app-search">
+        <input type="text" class="search-box" placeholder="Search...">
+        <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+
+    <hr>
+
+    <ul class="icon-list">
+        <li><a href=""><i class="fa fa-th-list status-block" aria-hidden="true"></i>My Branches</a></li>
+        <li><a href=""><i class="fa fa-users status-block" aria-hidden="true"></i>Staff</a></li>
+        <li><a href=""><i class="fa fa-clock-o status-block" aria-hidden="true"></i>Recent</a></li>
+        <li><a href=""><i class="fa fa-folder status-block" aria-hidden="true"></i>Reports</a></li>
+    </ul>
+
+    <hr>
+
+    <div id="summary">
+        <p>2GB of 20GB used</p>
+    </div>
+
+    <ul class="icon-list">
+        <li><a href=""><i class="fa fa-star status-block" aria-hidden="true"></i>Upgrade</a></li>
+    </ul>
+</div>
+
+<!-- main app content -->
+
+<div id="app-content" tabindex="2" style="overflow: hidden; outline: none;">
+    <div class="app-summary-box rows">
+        <div class="cols-3">
+            <h1 class="numeric-val">5<em>Active <br>Staff</em></h1>
+        </div>
+
+        <div class="cols-3">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="lebel-cell">Total</td>
+                        <td>1,250</td>
+                    </tr>
+                    <tr>
+                        <td class="lebel-cell">Absent</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td class="lebel-cell">Managers</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cols-3">
+            <span class="pill pill-green">Excellent</span> <span class="highlight h-green">+2.8%</span>
+            <h2>72% Attendance</h2>
+        </div>
+    </div>
+
+    <div id="content-scroll-content" class="rows" style="height: 502px;">
+        <div class="cols-side application-content-sidebar" style="height: 502px;">
+            <div class="main-header clearfix">
+                <h2>Live Feed</h2>+
+                <a href="" class="reset-field"><i class="fa fa-refresh status-block" aria-hidden="true"></i></a>
+            </div>
+
+            @*<div id="export-view" class="button btn-cta pill-button-center">Export View</div>*@
+
+            <div class="standard-list clearfix" tabindex="3" style="height: 465px; overflow: hidden; outline: none;">
+                <div class="list-item selected">
+                    <div class="title">Roland Opeda</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Becki Dilullo</div>
+                    <div class="info">Main Building</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Tyrell Narcisse</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Roland Opeda</div>
+                    <div class="info">Eastwood</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Tyrell Narcisse</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Lamont Straight</div>
+                    <div class="info">Eastwood</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Percy Mccool</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Zachariah Rowsey</div>
+                    <div class="info">Main Building</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Shanelle Lord</div>
+                    <div class="info">Main Building</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">William Trimble</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Bonnie Dwyer</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Otis Griffin</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Mark Artis</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Courtney Sheehy</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Roland Opeda</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Becki Dilullo</div>
+                    <div class="info">Main Building</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Tyrell Narcisse</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Roland Opeda</div>
+                    <div class="info">Eastwood</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Tyrell Narcisse</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Lamont Straight</div>
+                    <div class="info">Eastwood</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Percy Mccool</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Zachariah Rowsey</div>
+                    <div class="info">Main Building</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Shanelle Lord</div>
+                    <div class="info">Main Building</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">William Trimble</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Bonnie Dwyer</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Otis Griffin</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Mark Artis</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+                <div class="list-item">
+                    <div class="title">Courtney Sheehy</div>
+                    <div class="info">Makati</div>
+                    <div class="status"><i class="fa fa-arrow-up status-block" aria-hidden="true"></i> 2min</div>
+                </div>
+            </div>
+        </div> <!-- .cols-side // sidebar of content -->
+
+        <div class="cols-main application-content" tabindex="4" style="height: 502px; overflow: hidden; outline: none;">
+            <div class="controller-div">
+                <div id="back-controller"><i class="fa fa-arrow-left status-block" aria-hidden="true"></i> <span>Back to List</span></div>
+            </div>
+            <div class="content-view clearfix">
+                <div class="map-holder">
+                    <img src="~/images/single-app-map.jpg">
+                </div>
+
+                <div class="rows wrapper">
+                    <div class="cols-side offset-top">
+                        <img class="avatar-92" src="~/images/profile-image.jpg">
+
+                        <ul class="small-menu">
+                            <li><a href="">Flag for review</a></li>
+                            <li><a href="">Edit</a></li>
+                            <li><a href="">Transfer</a></li>
+                            <li><a href="">Block</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cols-main" tabindex="5" style="overflow: hidden; outline: none;">
+                        <div class="rows row-title-split">
+                            <div class="cols-2 title-area">
+                                <h1 id="current-title">Roland Opeda</h1>
+                                <h2><a href="" class="uppercase">Makati Branch</a></h2>
+                            </div>
+                            <div class="cols-2 h-green align-right" style="font-size: 16px;">
+                                <i class="fa fa-arrow-down status-block" aria-hidden="true"></i> 08:24:18.68
+                            </div>
+                        </div>
+
+                        <div class="rows stat-grid">
+                            <div class="cols-2">
+                                <h3>Reporting to</h3>
+                                <p><a href="">Joseph Rowsey</a></p>
+                            </div>
+                            <div class="cols-2">
+                                <h3>Call time</h3>
+                                <p>8:00AM</p>
+                            </div>
+                            <div class="cols-2">
+                                <h3>Attendance Rating</h3>
+                                <p>99.86%</p>
+                            </div>
+                            <div class="cols-2">
+                                <h3>End shift</h3>
+                                <p>5:00PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ascrail2006" class="nicescroll-rails nicescroll-rails-vr" style="width: 6px; z-index: auto; background: rgb(238, 238, 238); cursor: default; position: absolute; top: 210px; left: 733.375px; height: 355px; display: none; opacity: 0;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 6px; height: 0px; background-color: rgb(170, 170, 170); border: 0px; background-clip: padding-box; border-radius: 5px;"></div></div><div id="ascrail2006-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 6px; z-index: auto; background: rgb(238, 238, 238); top: 559px; left: 192.375px; position: absolute; cursor: default; display: none; opacity: 0;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 6px; width: 0px; background-color: rgb(170, 170, 170); border: 0px; background-clip: padding-box; border-radius: 5px; left: 0px;"></div></div>
+        </div>
+    </div>
+</div>
+
+<!-- END: main app content -->

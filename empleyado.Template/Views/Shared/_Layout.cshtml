@@ -1,0 +1,129 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+ <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - empleyado.Template</title>
+
+    <environment names="Development">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link href="~/css/normalize.css" rel="stylesheet" />
+        <link href="~/css/main.css" rel="stylesheet" />
+        <link href="~/css/empleyado.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/site.css" />
+
+        <script src="~/js/"></script>
+    </environment>
+    <environment names="Staging,Production">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link href="~/css/normalize.css" rel="stylesheet" />
+        <link href="~/css/main.css" rel="stylesheet" />
+        <link href="~/css/empleyado.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body class="whole-page single-app">
+    <div class="header-container">
+        <header class="container-fluid clearfix">
+            <div class="left-section">
+                <a href="#" class="site-title" title="Empleyado"><span class="hidden">Empleyado</span></a>
+
+                <nav>
+                    <ul>
+                        <li class="active title-active">
+                            <a href="#">BIOMETRICS</a>
+                        </li>
+                        <li>|</li>
+                        <li class="active top-menu">
+                            <a href="#">My Apps</a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="#">Timer</a></li>
+                                <li class="active"><a href="#">Biometrics</a></li>
+                                <li class="active"><a href="#">Accounting</a></li>
+                                <li class="active"><a href="#">Billing</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="right-section">
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i>&nbsp; Search</a></li>
+                        <li class="active show-mobile notification-item top-menu">
+                            <a href="#"><i class="fa fa-bell status-block" aria-hidden="true"><span class="status-content">8</span></i></a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="#">New user registered</a></li>
+                                <li class="active"><a href="#">Message received</a></li>
+                            </ul>
+                        </li>
+                        <li class="top-menu">
+                            <a href="#">Roland</a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="#">My Account</a></li>
+                                <li class="active"><a href="#">Settings</a></li>
+                                <li class="active"><a href="#">Edit Profile</a></li>
+                                <li class="active"><a href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                        <li class="show-mobile"><a href="#" id="show-menu"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+    </div>
+
+    <div class="main-container single-app-content no-side" style="padding-top: 73px;">
+
+        @RenderBody()
+
+    </div>
+
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/jquery.nicescroll.min.js"></script>
+        <script src="~/js/main.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/jquery.nicescroll.min.js"></script>
+        <script src="~/js/main.js"></script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
