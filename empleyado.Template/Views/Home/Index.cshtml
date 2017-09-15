@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="app-nav" tabindex="1" style="overflow: hidden; outline: none;">
+<div id="app-nav" class="w0" tabindex="1" style="overflow: hidden; outline: none;">
     <a href="" class="button btn-cta btn-full">Generate Report</a>
 
     <div id="app-search">
@@ -21,46 +21,54 @@
 
     <hr>
 
-    <div id="summary">
+    @*<div id="summary">
         <p>2GB of 20GB used</p>
     </div>
 
     <ul class="icon-list">
         <li><a href=""><i class="fa fa-star status-block" aria-hidden="true"></i>Upgrade</a></li>
-    </ul>
+    </ul>*@
 </div>
 
 <!-- main app content -->
 
-<div id="app-content" tabindex="2" style="overflow: hidden; outline: none;">
+<div id="app-content" class="w100" tabindex="2" style="overflow: hidden; outline: none;">
     <div class="app-summary-box rows">
-        <div class="cols-3">
-            <h1 class="numeric-val">5<em>Active <br>Staff</em></h1>
+
+        <div class="collapsible text-right">
+            <a href="#" id="collapse" class="white"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
         </div>
 
-        <div class="cols-3">
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="lebel-cell">Total</td>
-                        <td>1,250</td>
-                    </tr>
-                    <tr>
-                        <td class="lebel-cell">Absent</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <td class="lebel-cell">Managers</td>
-                        <td>8</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div id="summary" style="display: none;">
+            <div class="cols-3">
+                <h1 class="numeric-val">5<em>Active <br>Staff</em></h1>
+            </div>
+
+            <div class="cols-3">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="lebel-cell">Total</td>
+                            <td>1,250</td>
+                        </tr>
+                        <tr>
+                            <td class="lebel-cell">Absent</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td class="lebel-cell">Managers</td>
+                            <td>8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="cols-3">
+                @*<span class="pill pill-green">Excellent</span> <span class="highlight h-green">+2.8%</span>
+                <h2>72% Attendance</h2>*@
+            </div>
         </div>
 
-        <div class="cols-3">
-            <span class="pill pill-green">Excellent</span> <span class="highlight h-green">+2.8%</span>
-            <h2>72% Attendance</h2>
-        </div>
     </div>
 
     <div id="content-scroll-content" class="rows" style="height: 502px;">

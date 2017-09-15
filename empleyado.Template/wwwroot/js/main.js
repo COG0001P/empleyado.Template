@@ -179,3 +179,22 @@
         $('body').removeClass('show-menu');
     });
 });
+
+// Jquery nav slide toggle
+
+$(document).on('click', '#collapse', function () {
+
+    $("#summary").slideToggle();
+    $("i", this).toggleClass("fa-chevron-down fa-chevron-up");
+
+});
+
+$('#side-toggle').on('click', function () {
+
+    $("i", this).toggleClass("fa-chevron-right fa-chevron-left");
+    $('#app-nav').toggleClass("w0 w17");
+    $('#app-content').toggleClass("w100 w83");
+
+    //$('.cols-main .main-header').toggleClass('w70 w58');
+
+});
