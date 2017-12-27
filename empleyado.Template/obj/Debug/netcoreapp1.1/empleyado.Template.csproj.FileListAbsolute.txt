@@ -1,0 +1,9 @@
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\bin\Debug\netcoreapp1.1\empleyado.Template.deps.json
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\bin\Debug\netcoreapp1.1\empleyado.Template.runtimeconfig.json
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\bin\Debug\netcoreapp1.1\empleyado.Template.runtimeconfig.dev.json
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\bin\Debug\netcoreapp1.1\empleyado.Template.dll
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\bin\Debug\netcoreapp1.1\empleyado.Template.pdb
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\obj\Debug\netcoreapp1.1\empleyado.Template.csprojResolveAssemblyReference.cache
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\obj\Debug\netcoreapp1.1\empleyado.Template.AssemblyInfo.cs
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\obj\Debug\netcoreapp1.1\empleyado.Template.dll
+C:\Users\COG0001M\Documents\Visual Studio 2017\Projects\empleyado.Template\empleyado.Template\obj\Debug\netcoreapp1.1\empleyado.Template.pdb

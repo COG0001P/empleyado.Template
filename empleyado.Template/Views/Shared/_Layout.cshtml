@@ -96,7 +96,30 @@
 
     <div class="main-container single-app-content no-side" style="padding-top: 73px;">
 
+        <div id="app-nav" class="w0" tabindex="1" style="overflow: hidden; outline: none;">
+            <a href="" class="button btn-cta btn-full">Generate Report</a>
+
+            <div id="app-search">
+                <input type="text" class="search-box" placeholder="Search...">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+
+            <hr>
+
+            <ul class="icon-list">
+                <li><a href=""><i class="fa fa-th-list status-block" aria-hidden="true"></i>My Branches</a></li>
+                <li><a href=""><i class="fa fa-users status-block" aria-hidden="true"></i>Staff</a></li>
+                <li><a href=""><i class="fa fa-clock-o status-block" aria-hidden="true"></i>Recent</a></li>
+                <li><a href=""><i class="fa fa-folder status-block" aria-hidden="true"></i>Reports</a></li>
+            </ul>
+
+            <hr>
+
+        </div>
+
         @RenderBody()
+
+        <div id="menu-overlay"></div>
 
     </div>
 
